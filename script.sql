@@ -10,7 +10,6 @@ CREATE TABLE `projeto`.`aluno` (
   
 INSERT INTO aluno (Nome,RA,Email) VALUES ('Lucas', '22207331','lucas.la@sempreceub.com');
 SELECT * FROM aluno;
-
 INSERT INTO aluno (Nome,RA,Email) VALUES ('Zago', '222012424','Zagozin@sempreceub.com');
 INSERT INTO aluno (Nome,RA,Email) VALUES ('Nabu', '222015262','cetin@sempreceub.com');
 
