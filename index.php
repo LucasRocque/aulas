@@ -27,11 +27,16 @@
 </head>
 <body>
     <form method="request" action="adicionar.php">
+        <input type="hidden" name="idAluno" 
+        value="<?php echo isset ($resultItem) ? $resultItem->idAluno : '' ?>">
+        
         Nome: <input type="text" name="Nome" 
         value="<?php echo isset ($resultItem) ? $resultItem->Nome : '' ?>"> 
+        
         RA: <input type="number" name="RA" 
         value="<?php echo isset ($resultItem) ? $resultItem->RA : '' ?>">
         <br><br>
+        
         Email: <input type="email" name="Email" 
         value="<?php echo isset ($resultItem) ? $resultItem->Email : '' ?>">
         <br><br>
