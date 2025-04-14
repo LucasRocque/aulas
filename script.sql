@@ -14,3 +14,5 @@ INSERT INTO aluno (Nome,RA,Email) VALUES ('Zago', '222012424','Zagozin@sempreceu
 INSERT INTO aluno (Nome,RA,Email) VALUES ('Nabu', '222015262','cetin@sempreceub.com');
 
 UPDATE aluno SET RA = 22208388 WHERE idAluno=;
+
+UPDATE aluno SET senha =md5('123456') WHERE idAluno=20;
